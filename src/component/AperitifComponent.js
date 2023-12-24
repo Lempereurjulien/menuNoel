@@ -19,7 +19,7 @@ const AperitifComponent = () =>{
     })
     return (
         <div className="contentAperitif">
-        <h2 className="h2">Les entrées :</h2>
+        <h2 className="h2">Les entrées</h2>
             <ul className="ul">
                 {apero}
             </ul>
