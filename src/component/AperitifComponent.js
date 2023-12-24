@@ -19,7 +19,7 @@ const AperitifComponent = () =>{
     })
     return (
         <div className="contentAperitif">
-        <h2 style={{fontFamily : "Rubik", textDecoration : "underline"}}>Aperitif :</h2>
+        <h2 style={{fontFamily : "Rubik", textDecoration : "underline"}}>Les entrées :</h2>
             <ul className="ul">
                 {apero}
             </ul>
