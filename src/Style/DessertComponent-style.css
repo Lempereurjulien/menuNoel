@@ -1,0 +1,11 @@
+.dessertContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h4{
+    text-align: center;
+    width: 40vh;
+}

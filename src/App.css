@@ -1,38 +1,63 @@
 .App {
+  padding: 40px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-family: 'Rubik';
+  background-image: url('./asset/ornement.png'); /* Remplacez le chemin par celui de votre image */
+  background-size: cover; /* Ajustez la taille de l'image */
+
+}
+.background-container {
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  color: white; /* Ajustez la couleur du texte pour une meilleure visibilité */
+  text-align: center; /* Centre le texte */
+  padding: 20px; /* Ajoute un espacement autour du contenu */
 }
 
-.App-link {
-  color: #61dafb;
+.content{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
+.separation1 {
+  width: 30vh ;
+  height: 1vh;
+  border-width: 2px;
+  border-bottom-style: double;
+}
+
+.separation2 {
+  width: 30vh ;
+  height: 1vh;
+  border-width: 2px;
+  border-bottom-style: dashed;
+}
+
+.imageDiv {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  animation: rotateAnimation 5s linear infinite;
+}
+
+@keyframes rotateAnimation {
   from {
-    transform: rotate(0deg);
+    transform: rotateY(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotateY(360deg);
   }
 }
