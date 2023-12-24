@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
 .PPcontent {
     display: flex;
     flex-direction: column;
@@ -6,7 +8,12 @@
 }
 
 .text{
+    font-family: "Sevillana";
     text-align: center;
     width: 40vh;
+}
 
+.h2{
+    font-family: "Sevillana";
+    text-decoration: underline;
 }

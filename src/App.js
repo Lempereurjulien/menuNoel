@@ -9,15 +9,12 @@ import DessertComponent from "./component/DessertComponent";
 function App() {
     return (
         <div className="App">
-            <TitleComponent date="2023" lieu="Aubagne" nb={18}/>
+            <TitleComponent date="2023" lieu="Aubagne"/>
             <div className="separation1"/>
             <div className="content">
                 <AperitifComponent/>
-                {/*<div className="separation1"/>*/}
                 <PlatPrincipalComponent/>
-                {/*<div className="separation2"/>*/}
                 <FromageComponent/>
-                {/*<div className="separation1"/>*/}
                 <DessertComponent/>
             </div>
             <div className="separation1"/>

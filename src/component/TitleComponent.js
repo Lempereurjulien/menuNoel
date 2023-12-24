@@ -4,7 +4,7 @@ const TitleComponent = (props) => {
     return (
         <div>
             <h1 className="title">Noël {props.date}</h1>
-            <h2 className="text">{props.lieu} ({props.nb} persones)</h2>
+            <h2 className="text">{props.lieu}</h2>
         </div>
     )
 }
