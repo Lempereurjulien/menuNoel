@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   font-family: 'Rubik';
-  background-image: url('./asset/ornement.png'); /* Remplacez le chemin par celui de votre image */
+  background-image: url('https://res.cloudinary.com/dhwt4rlu3/image/upload/v1703379913/rm0sdwwcyobzv7npoobd.png'); /* Remplacez le chemin par celui de votre image */
   background-size: cover; /* Ajustez la taille de l'image */
 
 }

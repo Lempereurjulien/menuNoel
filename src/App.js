@@ -5,7 +5,7 @@ import AperitifComponent from "./component/AperitifComponent";
 import PlatPrincipalComponent from "./component/PlatPrincipalComponent";
 import FromageComponent from "./component/FromageComponent";
 import DessertComponent from "./component/DessertComponent";
-import pereNoel from "./asset/pereNoel.png";
+
 function App() {
     return (
         <div className="App">
@@ -22,7 +22,7 @@ function App() {
             </div>
             <div className="separation1"/>
             <div className="imageDiv">
-                <img src={pereNoel} alt="pere noël" className="image"
+                <img src={"https://res.cloudinary.com/dhwt4rlu3/image/upload/v1703380066/unqfcn3w43qy8wc94f5d.png"} alt="pere noël" className="image"
                 />
             </div>
         </div>
