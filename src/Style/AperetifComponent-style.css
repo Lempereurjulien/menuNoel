@@ -6,14 +6,10 @@
     justify-content: center;
     align-items: center;
 }
-.li {
-    font-family: "Sevillana";
-}
 .ul{
     width: auto;
 }
 
 .h2{
-    font-family: Sevillana;
     text-decoration: underline;
 }
