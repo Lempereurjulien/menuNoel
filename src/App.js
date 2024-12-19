@@ -10,19 +10,21 @@ import DessertComponent from "./component/DessertComponent";
 function App() {
     return (
         <div className="App">
-            <TitleComponent date="2023" lieu="Flayosc" personnes="15"/>
-            <div className="separation1"/>
-            <div className="content">
-                <AperitifComponent/>
-                <EntreesComponent/>
-                <PlatPrincipalComponent/>
-                <FromageComponent/>
-                <DessertComponent/>
-            </div>
-            <div className="separation1"/>
-            <div className="imageDiv">
-                <img src={"https://res.cloudinary.com/dhwt4rlu3/image/upload/v1703380066/unqfcn3w43qy8wc94f5d.png"} alt="pere noël" className="image"
-                />
+            <div className='card'>
+                <TitleComponent date="2023" lieu="Flayosc" personnes="15"/>
+                <div className="separation1"/>
+                    <div className="content">
+                        <AperitifComponent/>
+                        <EntreesComponent/>
+                        <PlatPrincipalComponent/>
+                        <FromageComponent/>
+                        <DessertComponent/>
+                    </div>
+                <div className="separation1"/>
+                <div className="imageDiv">
+                    <img src={"https://res.cloudinary.com/dhwt4rlu3/image/upload/v1703380066/unqfcn3w43qy8wc94f5d.png"} alt="pere noël" className="image"
+                    />
+                </div>
             </div>
         </div>
     );
