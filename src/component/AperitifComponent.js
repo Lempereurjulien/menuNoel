@@ -2,10 +2,11 @@ import React from 'react';
 import "../Style/AperetifComponent-style.css";
 
 const INGREDIENT =[
-    "Saumon",
-    "Huitres",
-    "Escargots",
-    "Foie Gras",
+    "chips de crevette",
+    "tortillas et guacamole",
+    "tomate cerise",
+    "gressin",
+    "champagne"
 ]
 
 const AperitifComponent = () =>{
@@ -19,7 +20,7 @@ const AperitifComponent = () =>{
     })
     return (
         <div className="contentAperitif">
-        <h2 className="h2">Les entrées</h2>
+        <h2 className="h2">Les apéritifs</h2>
             <ul className="ul">
                 {apero}
             </ul>

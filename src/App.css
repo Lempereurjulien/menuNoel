@@ -1,15 +1,11 @@
 .App {
-  width: 100%;
-  padding: 40px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Sevillana', cursive;
-  background-image: url('https://res.cloudinary.com/dhwt4rlu3/image/upload/v1703379913/rm0sdwwcyobzv7npoobd.png'); /* Remplacez le chemin par celui de votre image */
+  /* background-image: url('https://res.cloudinary.com/dhwt4rlu3/image/upload/v1703379913/rm0sdwwcyobzv7npoobd.png'); Remplacez le chemin par celui de votre image */
   background-size:  contain; /* Ajustez la taille de l'image */
-  background-color: green;
 
 }
 .background-container {
@@ -46,7 +42,6 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .image {
