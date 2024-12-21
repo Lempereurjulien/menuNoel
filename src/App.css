@@ -1,22 +1,41 @@
 .App {
-  width: 100%;
-  padding: 40px;
+  width: 80%;
+  padding: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Sevillana', cursive;
-  background-image: url('https://res.cloudinary.com/dhwt4rlu3/image/upload/v1703379913/rm0sdwwcyobzv7npoobd.png'); /* Remplacez le chemin par celui de votre image */
-  background-size:  contain; /* Ajustez la taille de l'image */
-  background-color: green;
-
+  
 }
 .background-container {
   height: 100vh; /* Ajustez la hauteur selon vos besoins */
   color: white; /* Ajustez la couleur du texte pour une meilleure visibilité */
   text-align: center; /* Centre le texte */
   padding: 20px; /* Ajoute un espacement autour du contenu */
+}
+
+.card{
+  height: auto;
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://res.cloudinary.com/dhwt4rlu3/image/upload/v1703379913/rm0sdwwcyobzv7npoobd.png'); /* Remplacez le chemin par celui de votre image */
+  overflow-y: scroll;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.content{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .content{
