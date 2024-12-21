@@ -1,15 +1,14 @@
 import React from 'react';
-import "../Style/AperetifComponent-style.css";
+import "../Style/EntreesComponent-style.css";
 
 const INGREDIENT =[
-    "Chips de crevette",
-    "Tortillas et guacamole",
-    "Tomate cerise",
-    "Gressin",
-    
+    "Saumon",
+    "Huitres",
+    "Escargots",
+    "Foie Gras",
 ]
 
-const AperitifComponent = () =>{
+const EntreesComponent = () =>{
 
     const apero = INGREDIENT.map((ing) =>{
         return(
@@ -19,8 +18,8 @@ const AperitifComponent = () =>{
         )
     })
     return (
-        <div className="contentAperitif">
-        <h2 className="h2">Les aperiritfs</h2>
+        <div className="entreesContent">
+        <h2 className="h2">Les entrées</h2>
             <ul className="ul">
                 {apero}
             </ul>
@@ -28,4 +27,4 @@ const AperitifComponent = () =>{
     )
 }
 
-export default AperitifComponent;
+export default EntreesComponent;

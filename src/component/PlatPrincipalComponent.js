@@ -4,7 +4,7 @@ const PlatPrincipalComponent = () => {
     return (
         <div className="PPcontent">
             <h2 className="h2">Plat principal</h2>
-            <p className="text">Boeuf Bourguignon accompagné de pommes de terre.</p>
+            <p className="text">Poulardes farcies aux morilles accompagnée de haricots vert et de pomme de terre</p>
         </div>
     )
 }
