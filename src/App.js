@@ -12,7 +12,7 @@ function App() {
         <div className="App">
             <div className='card'>
                 <div className='content'>
-                <TitleComponent date="2023" lieu="Aubagne" personnes="15"/>
+                <TitleComponent date="2025" lieu="Flayosc" personnes="15"/>
                 <div className="separation1"/>
                 <div className="content">
                     <AperitifComponent/>
