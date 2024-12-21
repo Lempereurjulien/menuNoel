@@ -2,10 +2,11 @@ import React from 'react';
 import "../Style/AperetifComponent-style.css";
 
 const INGREDIENT =[
-    "Saumon",
-    "Huitres",
-    "Escargots",
-    "Foie Gras",
+    "Chips de crevette",
+    "Tortillas et guacamole",
+    "Tomate cerise",
+    "Gressin",
+    
 ]
 
 const AperitifComponent = () =>{

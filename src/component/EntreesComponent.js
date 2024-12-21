@@ -2,10 +2,10 @@ import React from 'react';
 import "../Style/EntreesComponent-style.css";
 
 const INGREDIENT =[
-    "Chips de crevette",
-    "Tortillas et guacamole",
-    "Tomate cerise",
-    "Gressin",
+    "Saumon",
+    "Huitres",
+    "Escargots",
+    "Foie Gras",
 ]
 
 const EntreesComponent = () =>{
